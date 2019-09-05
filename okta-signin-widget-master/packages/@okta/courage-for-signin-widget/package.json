@@ -1,0 +1,15 @@
+{
+  "name": "courage-for-signin-widget",
+  "version": "1.0.0",
+  "description": "generates a Courage version for Sign-In Widget",
+  "main": "src/CourageForSigninWidget.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@okta/courage": "4.6.0-beta.2670.g173eed7",
+    "copy-webpack-plugin": "4.6.0",
+    "webpack": "3.12.0",
+    "webpack-bundle-analyzer": "3.0.2"
+  }
+}
