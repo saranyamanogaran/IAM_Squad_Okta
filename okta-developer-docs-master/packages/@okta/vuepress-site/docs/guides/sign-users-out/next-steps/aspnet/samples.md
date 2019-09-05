@@ -1,0 +1,1 @@
+The samples available in our [ASP.NET MVC Sample repo](https://github.com/okta/samples-aspnet) on GitHub show how to sign users out of the app and out of Okta.
