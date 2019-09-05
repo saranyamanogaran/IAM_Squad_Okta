@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "devDependencies": {
+    "globby": "^6.1.0",
+    "lerna": "^2.11.0"
+  },
+  "engines": {
+    "yarn": "^1.7.0"
+  },
+  "scripts": {
+    "banners": "util/maintain-banners.js",
+    "publish": "lerna publish --skip-npm",
+    "test": "./scripts/runTests.sh",
+    "clean": "./scripts/clean.sh",
+    "postinstall": "./scripts/installPackages.sh"
+  }
+}
